@@ -10,8 +10,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run dev build",
-    "deploy": "gp-pages -d dist"
+    "predeploy": "npm run dev build"
 
 
   },
